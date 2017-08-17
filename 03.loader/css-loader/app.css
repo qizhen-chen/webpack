@@ -1,0 +1,14 @@
+body{
+  background-color: deepskyblue;
+}
+ /* div{ 
+  width: 200px;
+  height: 200px;
+  background-color: red;
+} */
+div.box{
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
