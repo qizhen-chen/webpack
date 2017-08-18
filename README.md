@@ -1,5 +1,6 @@
 # Webpack
 ## Learn Webpack
+>webpack 2.0以后版本支持ES模块语法 导入(import)导出(export)
 
 ### 1. webpack常用命令
 ```bash
@@ -14,7 +15,8 @@ $ webpack -p    //压缩混淆脚本，这个非常非常重要！
 $ webpack -d    //生成map映射文件，告知哪些模块被最终打包到哪里了
 ```
 ### 2. Loader
-1. css-loader
+1. css-loader  
+
 ```javascript
 {
 
