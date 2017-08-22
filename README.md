@@ -31,9 +31,12 @@ $ webpack -d    //生成map映射文件，告知哪些模块被最终打包到�
             modules: false,//true为css模块化；false为非模块化；
           }
         }
-      ]
+      ],
+      //use: ['style-loader','css-loader']
+      //Loaders会按照数组的逆序运行, 也就是说, 会先运行 css-loader, 后运行 style-loader.
     }
   ]
 }
 ```
 > css模块化为false直接注入css；css module为true；要以对象形式注入；
+> 我们可以可以使用webpack里的~前缀来引入Node模块，假如我们执行了npm install normalize.css那么就可以使用 @import "~normalize.css"
