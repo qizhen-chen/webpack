@@ -26,3 +26,4 @@ module.exports = {
   <img src="data:image/png;base64,iVBOR...uQmCC">
 
 ```
+- 超过限制就会单独打包;
